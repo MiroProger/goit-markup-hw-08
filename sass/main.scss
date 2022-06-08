@@ -1,11 +1,13 @@
+// Base styles
+@import "./base/normalize";
+@import "./base/fonts";
+
 // Utils
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/mixins";
 @import "./utils/placeholders";
 
-// Base styles
-@import "./base/normalize";
 
 // Components
 @import "./components/reset";
