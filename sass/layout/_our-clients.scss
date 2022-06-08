@@ -1,0 +1,21 @@
+/* our clients start */
+
+.our-clients {
+    --card-item: 6;
+}
+
+.our-clients__link {
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    height: 92px;
+
+    color: $icon-color;
+
+    transition: color $transition-duration $transition-cubic-bezier;
+}
+
+.our-clients__icon {
+    fill: currentColor;
+}
+
+/* our clients end */

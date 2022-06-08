@@ -1,0 +1,51 @@
+/* our team start */
+
+.our-team {
+    background-color: $secondary-background-color;
+    --card-item: 4;
+}
+
+.our-team__border {
+    padding: 30px;
+
+    background: $white-color;
+    box-shadow: $border-shadow;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team__name,
+.our-team__position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.our-team__name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    color: $primary-color;
+}
+
+.our-team__position {
+    margin-bottom: 16px;
+}
+
+.social__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color $transition-duration $transition-cubic-bezier;
+
+    &:hover .social__icon,
+    &:focus .social__icon {
+        fill: $white-color;
+    }
+}
+
+.social__icon {
+    fill: $icon-color;
+    transition: fill $transition-duration $transition-cubic-bezier;
+}
+
+/* our team end */

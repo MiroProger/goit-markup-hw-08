@@ -1,0 +1,25 @@
+/* advantages start */
+
+.advantages {
+    padding-bottom: 0;
+    --card-item: 4;
+
+    .thumb {
+        margin-bottom: 30px;
+        height: 120px;
+    
+        background: $secondary-background-color;
+        border-radius: 4px;
+    }
+}
+
+.advantages-list__title {
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-color;
+    margin-bottom: 10px;
+}
+
+/* advantages end */

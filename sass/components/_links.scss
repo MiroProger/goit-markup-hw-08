@@ -1,0 +1,18 @@
+.header__link:hover,
+.header__link:focus,
+.footer__link:hover,
+.footer__link:focus,
+.contacts-list__icon:hover,
+.contacts-list__icon:focus,
+.our-clients__link:hover,
+.our-clients__link:focus,
+.header__link--active-link {
+    color: $accent-color;
+}
+
+.social__link:hover,
+.social__link:focus,
+.footer .social__link:hover,
+.footer .social__link:focus {
+    background-color: $accent-color;
+}
