@@ -1,16 +1,15 @@
 /* advantages start */
-
 .advantages {
     padding-bottom: 0;
     --card-item: 4;
+}
 
-    .thumb {
-        margin-bottom: 30px;
-        height: 120px;
-    
-        background: $secondary-background-color;
-        border-radius: 4px;
-    }
+.advantages__thumb {
+    margin-bottom: 30px;
+    height: 120px;
+
+    background: $secondary-background-color;
+    border-radius: 4px;
 }
 
 .advantages__title {

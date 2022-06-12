@@ -438,15 +438,15 @@ address {
   margin-right: 10px;
 }
 
-.header__link:hover,
-.header__link:focus,
+.header-link:hover,
+.header-link:focus,
 .footer__link:hover,
 .footer__link:focus,
-.contacts-list__icon:hover,
-.contacts-list__icon:focus,
+.header-link__icon:hover,
+.header-link__icon:focus,
 .our-clients__link:hover,
 .our-clients__link:focus,
-.header__link--active-link {
+.header-link--active-link {
   color: #2196f3;
 }
 
@@ -535,7 +535,7 @@ address {
   margin-right: 50px;
 }
 
-.header__link {
+.header-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,7 +552,7 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__link--active-link::after {
+.header-link--active-link::after {
   content: "";
   display: block;
   position: absolute;
@@ -571,7 +571,7 @@ address {
   margin-left: auto;
 }
 
-.contacts-list__icon {
+.header-link__icon {
   margin-right: 10px;
   fill: current;
 }
@@ -602,7 +602,7 @@ address {
   margin-bottom: 20px;
 }
 
-.logo__footer {
+.footer__logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -754,7 +754,7 @@ address {
   --card-item: 4;
 }
 
-.advantages .thumb {
+.advantages__thumb {
   margin-bottom: 30px;
   height: 120px;
   background: #F5F4FA;

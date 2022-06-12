@@ -1,12 +1,12 @@
-.header__link:hover,
-.header__link:focus,
+.header-link:hover,
+.header-link:focus,
 .footer__link:hover,
 .footer__link:focus,
-.contacts-list__icon:hover,
-.contacts-list__icon:focus,
+.header-link__icon:hover,
+.header-link__icon:focus,
 .our-clients__link:hover,
 .our-clients__link:focus,
-.header__link--active-link {
+.header-link--active-link {
     color: $accent-color;
 }
 
