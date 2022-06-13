@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная</title>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 
     <!-- header -->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container header__container">
             <nav class="nav">
                 <a class="logo link" href="#">Web<span class="nav__logo">Studio</span></a>
@@ -40,16 +40,16 @@
             </ul>
         </div>
     </header>
-    <main>
 
-        <!-- hero -->
+    hero
         <section class="hero">
-            <div class="container">
-                <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button class="main-btn button" type='button' data-modal-open>Заказать услугу</button>
-            </div>
-        </section>
-
+        <div class="container">
+            <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+            <button class="main-btn button" type='button' data-modal-open>Заказать услугу</button>
+        </div>
+    </section> -->
+    
+    <main>
         <!-- our advantages -->
         <section class="advantages section">
             <div class="container">
@@ -99,7 +99,7 @@
             </div>
         </section>
 
-        <!-- what we do -->
+        <!-- our works -->
         <section class="our-works section">
             <div class="container">
                 <h2 class="section__title">Чем мы занимаемся</h2>
@@ -142,7 +142,7 @@
                 <ul class="our-team__list list card-set">
                     <li class="our-team__item card-set__item">
                         <img class="our-team__img" src="./images/our-team/photo1.jpg"
-                            alt="Фото Игоря Демьяненко" width="270" height="260">
+                            alt="Фото Игоря Демьяненко">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Игорь Демьяненко</h3>
                             <p class="our-team__position">Product Designer</p>
@@ -180,7 +180,7 @@
                     </li>
                     <li class="our-team__item card-set__item">
                         <img class="our-team__img" src="./images/our-team/photo2.jpg"
-                            alt="Фото Ольги Репиной" width="270" height="260">
+                            alt="Фото Ольги Репиной">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Ольга Репина</h3>
                             <p class="our-team__position">Frontend Developer</p>
@@ -218,7 +218,7 @@
                     </li>
                     <li class="our-team__item card-set__item">
                         <img class="our-team__img" src="./images/our-team/photo3.jpg"
-                            alt="Фото Николая Тарасова" width="270" height="260">
+                            alt="Фото Николая Тарасова">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Николай Тарасов</h3>
                             <p class="our-team__position">Marketing</p>
@@ -256,7 +256,7 @@
                     </li>
                     <li class="our-team__item card-set__item">
                         <img class="our-team__img" src="./images/our-team/photo4.jpg"
-                            alt="Фото Михаила Ермакова" width="270" height="260">
+                            alt="Фото Михаила Ермакова">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Михаил Ермаков</h3>
                             <p class="our-team__position">UI Designer</p>
@@ -351,52 +351,54 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <div class="contacts-wrapper">
-                <a class="logo link" href="#">Web<span class="footer__logo">Studio</span></a>
-                <address class="contacts">
-                    <ul class="contacts__list list">
-                        <li class="contacts__item"><a class="footer__link link" href="https://goo.gl/maps/UioDf2v1WKbfTMuCA"
-                                target="_blank" rel="noopener noreferrer">г. Киев, пр-т
-                                Леси Украинки, 26</a></li>
-                        <li class="contacts__item"><a class="footer__link link" href="mailto:info@example.com">info@example.com</a>
+            <div class="footer-wrapper">
+                <div class="contacts-wrapper">
+                    <a class="logo link" href="#">Web<span class="footer__logo">Studio</span></a>
+                    <address class="contacts">
+                        <ul class="contacts__list list">
+                            <li class="contacts__item"><a class="footer__link link" href="https://goo.gl/maps/UioDf2v1WKbfTMuCA"
+                                    target="_blank" rel="noopener noreferrer">г. Киев, пр-т
+                                    Леси Украинки, 26</a></li>
+                            <li class="contacts__item"><a class="footer__link link" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="contacts__item"><a class="footer__link link" href="tel:+380991111111">+38 099 111
+                                    11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="social-wrapper">
+                    <p class="footer__title">Присоединяйтесь</p>
+                    <ul class="social list">
+                        <li class="social__item">
+                            <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
+                                <svg class="social__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="contacts__item"><a class="footer__link link" href="tel:+380991111111">+38 099 111
-                                11 11</a></li>
+                        <li class="social__item">
+                            <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
+                                <svg class="social__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
+                                <svg class="social__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
+                                <svg class="social__icon" width="20" height="20">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </address>
-            </div>
-            <div class="social-wrapper">
-                <p class="footer__title">Присоединяйтесь</p>
-                <ul class="social list">
-                    <li class="social__item">
-                        <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
-                            <svg class="social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
-                            <svg class="social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
-                            <svg class="social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="" class="social__link thumb" target="_blank" rel="noopener noreferrer">
-                            <svg class="social__icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                </div>
             </div>
             <form class="subscription-form">
                 <p class="footer__title">Подпишитесь на рассылку</p>
@@ -413,7 +415,7 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn button" data-modal-close>
                 <svg width="11" height="11">
@@ -458,7 +460,7 @@
                 </button>
             </form>
         </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
 </body>

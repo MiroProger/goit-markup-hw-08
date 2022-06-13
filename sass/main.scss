@@ -1,32 +1,4 @@
-// Base styles
-@import "./base/normalize";
-@import "./base/fonts";
-
-// Utils
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-@import "./utils/mixins";
-@import "./utils/placeholders";
-
-
-// Components
-@import "./components/reset";
-@import "./components/button";
-@import "./components/card-set";
-@import "./components/icon";
-@import "./components/links";
-@import "./components/section";
-@import "./components/container";
-@import "./components/logo";
-@import "./components/header";
-@import "./components/footer";
-
-// Layouts
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/our-works";
-@import "./layout/our-team";
-@import "./layout/our-clients";
-@import "./layout/portfolio";
-@import "./layout/modal";
-
+@import './base/module';
+@import './utils/module';
+@import './components/module';
+@import './layout/module';

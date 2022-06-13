@@ -1,6 +1,6 @@
 .logo {
-    color: $accent-color;
-    font-family: $secondary-font-family;
+    color: var(--accent-color);
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
