@@ -10,7 +10,7 @@
 <body>
 
     <!-- header -->
-    <!-- <header class="header">
+    <header class="header">
         <div class="container header__container">
             <nav class="nav">
                 <a class="logo link" href="#">Web<span class="nav__logo">Studio</span></a>
@@ -38,18 +38,27 @@
                     </a>
                 </li>
             </ul>
+            <button class="header__modal-btn button" type="button" data-menu-button>
+                <svg class="header__modal-icon" width="24" height="16">
+                    <use class="icon-menu" href="./images/icons.svg#burger"></use>
+                    <use class="icon-cross" href="./images/icons.svg#close-btn"></use>
+                </svg>
+            </button>
+            <div class="mobile-modal-window" data-menu>
+
+            </div>
         </div>
     </header>
-
-    hero
-        <section class="hero">
+    
+    <main>
+    <!-- hero -->
+    <section class="hero">
         <div class="container">
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
             <button class="main-btn button" type='button' data-modal-open>Заказать услугу</button>
         </div>
-    </section> -->
+    </section>
     
-    <main>
         <!-- our advantages -->
         <section class="advantages section">
             <div class="container">
@@ -415,7 +424,7 @@
         </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn button" data-modal-close>
                 <svg width="11" height="11">
@@ -460,8 +469,9 @@
                 </button>
             </form>
         </div>
-    </div> -->
+    </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
