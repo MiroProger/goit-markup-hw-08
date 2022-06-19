@@ -1244,14 +1244,6 @@ address {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 60px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .footer-wrapper {
     display: -webkit-box;
@@ -1260,6 +1252,14 @@ address {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 60px;
   }
 }
 
@@ -1316,7 +1316,7 @@ address {
 
 @media screen and (min-width: 768px) {
   .contacts-wrapper {
-    margin-right: 164px;
+    margin-right: 165px;
   }
 }
 
