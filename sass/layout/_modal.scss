@@ -185,14 +185,12 @@ textarea.contact-form__input {
 
 .contact-form__checkbox-label {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
     font-size: 12px;
     line-height: 1.17;
     
-    @media screen and (min-widht: 480px) {
-        width: 370px;
-    }
 
     @media screen and (min-width: 1200px) {
         font-size: inherit;
@@ -201,10 +199,10 @@ textarea.contact-form__input {
     }
 
     &::before {
-        display: inline-block;
         content: "";
+        display: inline-block;
         margin-right: 8px;
-    
+
         width: 16px;
         height: 15px;
     
@@ -219,4 +217,5 @@ textarea.contact-form__input {
 .contact-form__checkbox-link {
     text-decoration-line: underline;
     color: var(--accent-color);
+    padding-left: 25px;
 }

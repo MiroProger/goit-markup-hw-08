@@ -38,7 +38,7 @@
                     </a>
                 </li>
             </ul>
-            <button class="menu-btn button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button class="menu-btn button js-open-menu is-open" aria-expanded="false" aria-controls="mobile-menu">
                 <svg class="menu-icon" width="24" height="16">
                     <use class="icon-open-menu" href="./images/icons.svg#burger"></use>
                 </svg>
@@ -420,6 +420,7 @@
         </div>
     </footer>
 
+    // Application form
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn button" data-modal-close>
@@ -457,7 +458,7 @@
                 <div class="contact-form__wrapper">
                     <input class="contact-form__checkbox-input visually-hidden" type="checkbox" name="user_agreement" id="user-agreement-checkbox" required>
                     <label class="contact-form__checkbox-label" for="user-agreement-checkbox">
-                        Соглашаюсь с рассылкой и принимаю&#8201;<a class="contact-form__checkbox-link" href="#">Условия договора</a>
+                        <span>Соглашаюсь с рассылкой и принимаю&#8201;</span><a class="contact-form__checkbox-link" href="#">Условия договора</a>
                     </label>
                 </div>
                 <button class="main-btn button" type="submit">
@@ -466,7 +467,9 @@
             </form>
         </div>
     </div>
-    <div class="menu-container js-menu-container" id="mobile-menu">
+
+    // Mobile menu
+    <div class="container menu-container js-menu-container" id="mobile-menu">
         <button class="menu-btn button js-close-menu">
             <svg class="menu-icon" width="19" height="19">
                 <use class="icon-close-menu" href="./images/icons.svg#close-btn"></use>
@@ -498,6 +501,7 @@
         </ul>
     </div>
     
+    // Scripts
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
