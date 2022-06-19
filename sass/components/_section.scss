@@ -6,11 +6,13 @@
     }
 }
 
-.section:not(:first-child) {
+.section--padding-bottom {
     @media screen and (min-width: 1200px) {
         padding-bottom: 94px;
     };
 }
+
+
 
 .section__title {
     margin-bottom: 30px;
