@@ -110,7 +110,7 @@
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="our-works__list list card-set">
                     <li class="our-works__item card-set__item">
-                        <img class="our-works__img" src="./images/what-we-do/photo1.jpg"
+                        <img class="our-works__img" srcset="./images/what-we-do/photo1.jpg 1x, ./images/what-we-do/photo1@2x.jpg 2x" src="./images/what-we-do/photo1.jpg"
                         alt="Разработка десктопных приложений" width="370" height="294">
                         <div class="our-works__overlay">
                             <p class="our-works__direction">
@@ -119,7 +119,7 @@
                         </div>
                     </li>
                     <li class="our-works__item card-set__item">
-                        <img class="our-works__img" src="./images/what-we-do/photo2.jpg"
+                        <img class="our-works__img" srcset="./images/what-we-do/photo2.jpg 1x, ./images/what-we-do/photo2@2x.jpg 2x" src="./images/what-we-do/photo2.jpg"
                         alt="Разработка мобильных приложений" width="370" height="294">
                         <div class="our-works__overlay">
                             <p class="our-works__direction">
@@ -128,7 +128,7 @@
                         </div>
                     </li>
                     <li class="our-works__item card-set__item">
-                        <img class="our-works__img" src="./images/what-we-do/photo3.jpg"
+                        <img class="our-works__img" srcset="./images/what-we-do/photo3.jpg 1x, ./images/what-we-do/photo3@2x.jpg 2x" src="./images/what-we-do/photo3.jpg"
                         alt="Работа с графикой" width="370" height="294">
                         <div class="our-works__overlay">
                             <p class="our-works__direction">
@@ -146,7 +146,12 @@
                 <h2 class="section__title">Наша команда</h2>
                 <ul class="our-team__list list card-set">
                     <li class="our-team__item card-set__item">
-                        <img class="our-team__img" src="./images/our-team/photo1.jpg"
+                        <img class="our-team__img" srcset="./images/our-team/photo1-270.jpg 270w,
+                            ./images/our-team/photo1-354.jpg 354w,
+                            ./images/our-team/photo1-450.jpg 450w,
+                            ./images/our-team/photo1-540.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./images/our-team/photo1-270.jpg"
                             alt="Фото Игоря Демьяненко">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Игорь Демьяненко</h3>
@@ -184,7 +189,12 @@
                         </div>
                     </li>
                     <li class="our-team__item card-set__item">
-                        <img class="our-team__img" src="./images/our-team/photo2.jpg"
+                        <img class="our-team__img" srcset="./images/our-team/photo2-270.jpg 270w,
+                            ./images/our-team/photo2-354.jpg 354w,
+                            ./images/our-team/photo2-450.jpg 450w,
+                            ./images/our-team/photo2-540.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./images/our-team/photo2-270.jpg"
                             alt="Фото Ольги Репиной">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Ольга Репина</h3>
@@ -222,7 +232,12 @@
                         </div>
                     </li>
                     <li class="our-team__item card-set__item">
-                        <img class="our-team__img" src="./images/our-team/photo3.jpg"
+                        <img class="our-team__img" srcset="./images/our-team/photo3-270.jpg 270w,
+                            ./images/our-team/photo3-354.jpg 354w,
+                            ./images/our-team/photo3-450.jpg 450w,
+                            ./images/our-team/photo3-540.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./images/our-team/photo3-270.jpg"
                             alt="Фото Николая Тарасова">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Николай Тарасов</h3>
@@ -260,7 +275,12 @@
                         </div>
                     </li>
                     <li class="our-team__item card-set__item">
-                        <img class="our-team__img" src="./images/our-team/photo4.jpg"
+                        <img class="our-team__img" srcset="./images/our-team/photo4-270.jpg 270w,
+                            ./images/our-team/photo4-354.jpg 354w,
+                            ./images/our-team/photo4-450.jpg 450w,
+                            ./images/our-team/photo4-540.jpg 540w"
+                            sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                            src="./images/our-team/photo4-270.jpg"
                             alt="Фото Михаила Ермакова">
                         <div class="our-team__border">
                             <h3 class="our-team__name">Михаил Ермаков</h3>
@@ -420,7 +440,7 @@
         </div>
     </footer>
 
-    // Application form
+     <!-- Application form -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn button" data-modal-close>
@@ -468,7 +488,7 @@
         </div>
     </div>
 
-    // Mobile menu
+    <!-- Mobile menu -->
     <div class="container menu-container js-menu-container" id="mobile-menu">
         <button class="menu-btn button js-close-menu">
             <svg class="menu-icon" width="19" height="19">
@@ -501,7 +521,7 @@
         </ul>
     </div>
     
-    // Scripts
+    <!-- Scripts -->
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
         crossorigin="anonymous"></script>
